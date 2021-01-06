@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Mecha;
+    src: url(fonts/Mecha.ttf)
+}
+@font-face {
+    font-family: SAOUI;
+    src: url(fonts/SAOUITT-Regular.ttf)
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-image: url("https://pm1.narvii.com/6645/fefa28a175e328c582bae1a99b0095e3ea6422de_hq.jpg");
+}
+
+#title {
+    background-image: url("https://cdn.wallpapersafari.com/10/72/rcabHz.png");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 8px blue;
+    font-family: SAOUI;
+}
+
+#title h1:hover {
+    cursor: pointer;
+}
+
+header {
+    background-color: #000;
+    background-size: 200px;
+    border-bottom: 2px solid white;
+    font-family: Mecha;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    padding: 10px 20px;
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#img-div {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#img-div img {
+    width: 400px;
+}
+
+#img-div img:hover {
+    cursor: pointer;
+}
+
+#description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-family: Mecha;
+}
+
+#description p {
+    margin-bottom: 10px;
+}
+
+#tl {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    font-family: Mecha;
+}
+
+#tl a {
+    margin-top: 10px;
+    align-self: center;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: rgba(255,255,255, 0.9);
+    margin-bottom: 10px;
+}
+
+#gallery img{
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 0 0 0.2em red;
+}
+
+#gallery img:hover {
+    box-shadow: 0 0 0.8em red;
+}
+
+footer {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    font-family: Mecha;
+}
